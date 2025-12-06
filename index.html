@@ -1,123 +1,66 @@
-<!--
-	Personal Portfolio - index.html
-	Nexus Front-End Boot Camp Project - 1
-	HTML only. No CSS/JS. Uses semantic structure, internal navigation,
-	lists, table, images stored in images/ folder, and external links.
--->
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Alex Example - Portfolio</title>
-	</head>
-	<body>
-		<!-- Site header with navigation -->
-		<header>
-			<h1>Alex Example</h1>
-			<nav>
-				<a href="index.html">Home</a>
-				<a href="about.html">About</a>
-				<a href="contact.html">Contact</a>
-				<!-- External links open in a new tab and include title attribute -->
-				<a href="https://github.com/" target="_blank" title="Visit my GitHub">GitHub</a>
-				<a href="https://www.linkedin.com/" target="_blank" title="Visit my LinkedIn">LinkedIn</a>
-			</nav>
-		</header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Salihat Mohammed - Portfolio</title>
+</head>
+<body>
+  <header>
+    <h1>Salihat's portfolio</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://github.com/" target="_blank" title="GitHub">GitHub</a>
+      <a href="https://www.linkedin.com/" target="_blank" title="LinkedIn">LinkedIn</a>
+    </nav>
+  </header>
 
-		<!-- Main content grouped with sections -->
-		<main>
-			<!-- About section with internal bookmark -->
-			<section id="about">
-				<!-- Comment: Brief introduction about myself -->
-				<h2>About Me</h2>
-				<p>
-					Hello! I'm Alex, an aspiring front-end developer learning HTML fundamentals.
-					I created this portfolio using HTML only as part of a boot camp project.
-				</p>
-				<!-- Using <abbr> as a bonus element -->
-				<p>
-					Currently studying at <abbr title="Nexus Front-End Boot Camp">Nexus</abbr>.
-				</p>
-			</section>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        My name is Salihat Mohammed, an on‑way developer who never imagined stepping into tech,
+        yet now finding the coding process surprisingly exciting and inspiring. 
+      </p>
+      <p>
+        I’m currently a 2nd year software engineering student at AAU.
+      </p>
+    </section>
 
-			<!-- Projects section with image used as a clickable link -->
-			<section id="projects">
-				<h2>Projects</h2>
-				<p>Below is a small project snapshot; click the image to open the full-size photo.</p>
-				<!-- Image stored in images/ folder, has alt text and title attribute -->
-				<a href="images/project.png" title="Open project image" target="_blank">
-					<img src="images/project.png" alt="Project screenshot" />
-				</a>
-				<p>
-					Citation example: <cite>Personal Project Collection</cite>
-				</p>
-			</section>
+    <section id="skills">
+      <h2>Skills & Goals</h2>
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML structure</li>
+        <li>python</li>
+        <li>leadership</li>
+        <li>debating skills<li>
+        <li>communication skills<li>
+      </ul>
 
-			<!-- Skills and hobbies lists -->
-			<section id="skills">
-				<h2>Skills & Hobbies</h2>
-				<!-- Unordered list example -->
-				<h3>Skills</h3>
-				<ul>
-					<li>HTML semantic structure</li>
-					<li>Accessibility basics</li>
-					<li>Wireframing</li>
-				</ul>
+      <h3>Learning Goals</h3>
+      <ol>
+        <li>being front end developer</li>
+        <li>Learn CSS and styling fundamentals</li>
+        <li>Build more structured and interactive projects</li>
+      </ol>
+    </section>
 
-				<!-- Ordered list example -->
-				<h3>Learning Goals (ordered)</h3>
-				<ol>
-					<li>Master semantic HTML</li>
-					<li>Learn CSS fundamentals</li>
-					<li>Build interactive projects</li>
-				</ol>
-			</section>
+    <section id="profile">
+      <h2>Profile Photo</h2>
+      <a href="images/sal.jpg" target="_blank" title="Profile image">
+        <!-- Display the profile image at 50% width and 50% height of its container -->
+        <img src="images/sal.jpg" alt="Photo of Salihat Mohammed" style="width:25%; height:25%;" />
+      </a>
+    </section>
 
-			<!-- Table example: weekly schedule -->
-			<section id="schedule">
-				<h2>Weekly Schedule</h2>
-				<table>
-					<caption>Typical weekly learning schedule</caption>
-					<tr>
-						<th>Day</th>
-						<th>Focus</th>
-						<th>Hours</th>
-					</tr>
-					<tr>
-						<td>Monday</td>
-						<td>HTML practice</td>
-						<td>2</td>
-					</tr>
-					<tr>
-						<td>Wednesday</td>
-						<td>Project work</td>
-						<td>3</td>
-					</tr>
-					<tr>
-						<td>Saturday</td>
-						<td>Review &amp; reading</td>
-						<td>2</td>
-					</tr>
-				</table>
-			</section>
+    <p>Jump to: <a href="#about">About</a></p>
+  </main>
 
-			<!-- A profile image in images/ used inline -->
-			<section id="profile">
-				<h2>Profile Photo</h2>
-				<!-- Clickable image example: clicking opens the image file -->
-				<a href="images/profile.png" target="_blank" title="Open profile image">
-					<img src="images/profile.png" alt="Profile photo of Alex" />
-				</a>
-			</section>
-
-			<!-- Internal bookmark example: link back to top/about -->
-			<p>Jump to: <a href="#about">About</a> | <a href="#projects">Projects</a></p>
-		</main>
-
-		<!-- Footer with contact info and copyright -->
-		<footer>
-			<p>&copy; 2025 Alex Example. Contact via <a href="contact.html">Contact</a>.</p>
-		</footer>
-	</body>
+  <footer>
+    <p>&copy; 2025 Salihat Mohammed. <a href="contact.html">Contact</a></p>
+  </footer>
+</body>
 </html>
